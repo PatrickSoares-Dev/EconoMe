@@ -2,21 +2,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-.poppins-medium {
-	font-family: "Poppins", sans-serif;
-	font-weight: 500;
-	font-style: normal;
-  }
-
-:root {
+:root{
 	--ion-font-family: 'Poppins', sans-serif;
 
-	--ion-color-primary: #17C64F;
-	--ion-color-primary-rgb: 23,198,79;
-	--ion-color-primary-contrast: #000000;
-	--ion-color-primary-contrast-rgb: 0,0,0;
-	--ion-color-primary-shade: #14ae46;
-	--ion-color-primary-tint: #2ecc61;
+	--ion-color-primary: #17C64F !important;
+	--ion-color-primary-rgb: 23,198,79 !important;
+	--ion-color-primary-contrast: #000000 !important;
+	--ion-color-primary-contrast-rgb: 0,0,0 !important;
+	--ion-color-primary-shade: #14ae46 !important;
+	--ion-color-primary-tint: #2ecc61 !important;
 
 	--ion-color-secondary: #BDBDBD;
 	--ion-color-secondary-rgb: 189,189,189;
@@ -75,6 +69,7 @@
 	--ion-color-dark-tint: #444444;
 
 }
+	
 
 .custom-ion-input {        
     --padding-start: 12px; 
@@ -85,19 +80,21 @@ ion-card-subtitle{
     font-size: 1rem;
 }
 
-.border-div {
-    border: 1px solid #e2e2e2; 
-    padding: 2px;
-    border-radius: 8px; 
-}
 
 .ion-margin-auto {
     margin: auto;
 }
 
+
 ion-content{
     --background: #F3F3F3; 
 	--border-radius: 12px;  
+	--box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
+}
+
+ion-card{
+    --background: #FFFFFF;	
+	--border-radius: 12px;
 	--box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
 }
 
@@ -120,14 +117,52 @@ ion-button {
 .toast-success {
 	--background: var(--ion-color-success);
 	--color: white;
+}
+
+.toast-danger {
+--background: var(--ion-color-danger);
+--color: white;
+}
+
+.toast-alert {
+--background: var(--ion-color-warning);
+--color: white;
+}
+
+.custom-add-button {
+	--background: var(--ion-color-success); 
+	border-radius: 50%; 
+	width: 50px; 
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
   }
   
-  .toast-danger {
-	--background: var(--ion-color-danger);
-	--color: white;
-  }
-  
-  .toast-alert {
-	--background: var(--ion-color-warning);
-	--color: white;
-  }
+.custom-add-icon {
+font-size: 25px; 
+color: #fff; 
+}
+
+.bg-green{
+	background-color: var(--ion-color-success); 
+	--border-radius: 12px;
+	--box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
+}
+
+.text-light{
+	color: var(--ion-color-light);
+}
+
+
+
+.text-light-medium{
+	color: var(--ion-color-light);
+	font-weight: 400;
+}
+
+
+ion-label{
+	font-size: 17.5px; 
+	font-weight: 400;
+}

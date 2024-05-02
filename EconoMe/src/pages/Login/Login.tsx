@@ -52,7 +52,7 @@ const Login: React.FC = () => {
                 </Link>                
             </div>
         </IonHeader>
-        <IonContent className="ion-padding custom-ion-content  ion-margin-top">
+        <IonContent className="ion-padding custom-ion-content ion-margin-top">
             <IonCardSubtitle className="ion-text-center ion-margin-bottom" color="primary">Bem-vindo novamente</IonCardSubtitle>
             <IonCardSubtitle className="ion-text-center ion-margin-top ion-padding-bottom">Acesse sua conta para começar a controlar a sua grana</IonCardSubtitle>
             

@@ -116,13 +116,13 @@ const Login: React.FC = () => {
                     
                 </IonCardContent>
 
-            </IonCard>          
+            </IonCard>  
+            <div className='ion-margin'>
+            <IonButton expand='block' onClick={register} className="btn">Registrar</IonButton>
+          </div>        
         </IonContent>
         <IonFooter className="ion-text-center ion-padding">
-
-          <div className='ion-margin'>
-            <IonButton expand='block' onClick={register} className="btn">Registrar</IonButton>
-          </div>
+          
           <div>
             <p>
               Já tem uma conta? <Link to="/Login">Entrar</Link>
