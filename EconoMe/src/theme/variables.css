@@ -1,6 +1,16 @@
 /* https://ionicframework.com/docs/theming/color-generator */
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.poppins-medium {
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+  }
+
 :root {
+	--ion-font-family: 'Poppins', sans-serif;
+
 	--ion-color-primary: #17C64F;
 	--ion-color-primary-rgb: 23,198,79;
 	--ion-color-primary-contrast: #000000;
@@ -65,3 +75,59 @@
 	--ion-color-dark-tint: #444444;
 
 }
+
+.custom-ion-input {        
+    --padding-start: 12px; 
+    --padding-end: 12px;         
+}
+
+ion-card-subtitle{
+    font-size: 1rem;
+}
+
+.border-div {
+    border: 1px solid #e2e2e2; 
+    padding: 2px;
+    border-radius: 8px; 
+}
+
+.ion-margin-auto {
+    margin: auto;
+}
+
+ion-content{
+    --background: #F3F3F3; 
+	--border-radius: 12px;  
+	--box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
+}
+
+ion-footer {
+    background: #F3F3F3; 
+    --ion-safe-area-bottom: 20px; 
+}
+
+ion-button {
+	--background: var(--ion-color-primary);
+	--background-hover: var(--ion-color-primary-shade);
+	--background-activated: var(--ion-color-primary-shade);
+	--background-focused: var(--ion-color-primary-shade);  
+	--color: #fff;  
+	--border-radius: 12px;  
+	--box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
+  }
+
+
+.toast-success {
+	--background: var(--ion-color-success);
+	--color: white;
+  }
+  
+  .toast-danger {
+	--background: var(--ion-color-danger);
+	--color: white;
+  }
+  
+  .toast-alert {
+	--background: var(--ion-color-warning);
+	--color: white;
+  }

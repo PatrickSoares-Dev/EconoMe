@@ -40,6 +40,7 @@ setupIonicReact();
 import { buscarUsuarioAtual } from './firebaseConfig'
 import { useDispatch } from 'react-redux';
 import { setUserState } from './redux/action';
+import Bemvindo from './pages/BemVindo/Bemvindo';
 
 const RoutingSystem: React.FC = () => {
       return(
@@ -47,6 +48,10 @@ const RoutingSystem: React.FC = () => {
           <IonRouterOutlet>          
             <Route exact path="/">
               <Home />
+            </Route>
+            {/* Bemvindo */}
+            <Route exact path="/Bemvindo">
+              <Bemvindo />
             </Route>
             {/* Login */}
             <Route exact path="/Login">

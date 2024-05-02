@@ -53,7 +53,7 @@ export async function registerUser(email: string, password: string){
     try {
 
         const data = await createUserWithEmailAndPassword(auth, email, password);
-        return { success: true, message: 'Usuário registrado com sucesso.', data};
+        return { success: true, message: 'Usuário registrado com sucesso. Redirecionando ...', data};
 
     } catch (error) {
         
