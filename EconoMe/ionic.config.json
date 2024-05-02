@@ -1,0 +1,7 @@
+{
+  "name": "EconoMe",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
