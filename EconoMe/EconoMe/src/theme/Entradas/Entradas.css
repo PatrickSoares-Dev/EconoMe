@@ -1,0 +1,68 @@
+/* Ajustes para os inputs e selects */
+.custom-item {
+    --background: transparent;
+    --color: black;
+    --border-color: #f8f8f8;
+}
+
+.custom-datetime {
+    --color: black; 
+    
+}
+
+.custom-select {
+    --color: black;
+    --background: white; /* Fundo branco para o select */
+}
+
+.custom-input {
+    --color: black; 
+    background-color: white;
+    border: 1px solid #c3c3c3;  
+    border-radius: 6px;
+    margin-top: 5px;  
+}
+
+/* Ajustes adicionais para garantir que o fundo dos selects e inputs fiquem brancos */
+ion-select {
+    --background: white;
+    --color: black;
+}
+
+ion-input {
+    --background: white;
+    --color: black;
+}
+
+/* Ajustes para o ion-modal */
+ion-modal {
+    --color: black;
+}
+
+/* Ajuste para ion-label */
+ion-label {
+    --color: black;
+    color: black; /* Define a cor do label para preto */
+}
+
+/* Estilização específica para o label de descrição */
+.custom-item ion-label.custom-label-descricao {
+    color: black; /* Define a cor do label de descrição para preto */
+}
+
+/* Entradas.css */
+.toast-custom {
+    --background: white;
+    --color: green;
+    --padding-start: 16px;
+    --padding-end: 16px;
+    --min-height: 48px;
+    display: flex;
+    align-items: center;
+}
+
+.toast-custom .toast-icon {
+    margin-right: 8px;
+    font-size: 1.5rem;
+    color: green;
+}

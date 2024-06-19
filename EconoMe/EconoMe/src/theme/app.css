@@ -1,0 +1,334 @@
+/* https://ionicframework.com/docs/theming/color-generator */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+	--ion-font-family: 'Poppins', sans-serif;
+
+	--ion-color-primary: #17C64F !important;
+	--ion-color-primary-rgb: 23,198,79 !important;
+	--ion-color-primary-contrast: #000000 !important;
+	--ion-color-primary-contrast-rgb: 0,0,0 !important;
+	--ion-color-primary-shade: #14ae46 !important;
+	--ion-color-primary-tint: #2ecc61 !important;
+
+	--ion-color-success-dark: #28bb50; /* Novo tom de verde mais escuro */
+
+	--ion-color-secondary: #BDBDBD;
+	--ion-color-secondary-rgb: 189,189,189;
+	--ion-color-secondary-contrast: #000000;
+	--ion-color-secondary-contrast-rgb: 0,0,0;
+	--ion-color-secondary-shade: #a6a6a6;
+	--ion-color-secondary-tint: #c4c4c4;
+
+	--ion-color-tertiary: #2D84CB;
+	--ion-color-tertiary-rgb: 45,132,203;
+	--ion-color-tertiary-contrast: #000000;
+	--ion-color-tertiary-contrast-rgb: 0,0,0;
+	--ion-color-tertiary-shade: #2874b3;
+	--ion-color-tertiary-tint: #4290d0;
+
+	--ion-color-success: #2dd55b;
+	--ion-color-success-rgb: 45,213,91;
+	--ion-color-success-contrast: #000000;
+	--ion-color-success-contrast-rgb: 0,0,0;
+	--ion-color-success-shade: #28bb50;
+	--ion-color-success-tint: #42d96b;
+
+	--ion-color-warning: #ffc409;
+	--ion-color-warning-rgb: 255,196,9;
+	--ion-color-warning-contrast: #000000;
+	--ion-color-warning-contrast-rgb: 0,0,0;
+	--ion-color-warning-shade: #e0ac08;
+	--ion-color-warning-tint: #ffca22;
+
+	--ion-color-danger: #c5000f;
+	--ion-color-danger-rgb: 197,0,15;
+	--ion-color-danger-contrast: #ffffff;
+	--ion-color-danger-contrast-rgb: 255,255,255;
+	--ion-color-danger-shade: #ad000d;
+	--ion-color-danger-tint: #cb1a27;
+
+	--ion-color-light: #f6f8fc;
+	--ion-color-light-rgb: 246,248,252;
+	--ion-color-light-contrast: #000000;
+	--ion-color-light-contrast-rgb: 0,0,0;
+	--ion-color-light-shade: #d8dade;
+	--ion-color-light-tint: #f7f9fc;
+
+	--ion-color-medium: #5f5f5f;
+	--ion-color-medium-rgb: 95,95,95;
+	--ion-color-medium-contrast: #ffffff;
+	--ion-color-medium-contrast-rgb: 255,255,255;
+	--ion-color-medium-shade: #545454;
+	--ion-color-medium-tint: #6f6f6f;
+
+	--ion-color-dark: #2f2f2f;
+	--ion-color-dark-rgb: 47,47,47;
+	--ion-color-dark-contrast: #ffffff;
+	--ion-color-dark-contrast-rgb: 255,255,255;
+	--ion-color-dark-shade: #292929;
+	--ion-color-dark-tint: #444444;
+
+}
+	
+
+.custom-ion-input {        
+    --padding-start: 12px; 
+    --padding-end: 12px;         
+}
+
+ion-card-subtitle{
+    font-size: 1rem;
+}
+
+
+.ion-margin-auto {
+    margin: auto;
+}
+
+
+ion-content{
+    --background: #F3F3F3; 
+	--border-radius: 12px;  
+	--box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
+}
+
+ion-card{
+    --background: #FFFFFF;	
+	--border-radius: 12px;
+	--box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
+}
+
+ion-footer {
+    background: #F3F3F3; 
+    --ion-safe-area-bottom: 20px; 
+}
+
+ion-button {
+	--background: var(--ion-color-primary);
+	--background-hover: var(--ion-color-primary-shade);
+	--background-activated: var(--ion-color-primary-shade);
+	--background-focused: var(--ion-color-primary-shade);  
+	--color: #fff;  
+	--border-radius: 12px;  
+	--box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
+  }
+
+
+.toast-success {
+	--background: var(--ion-color-success);
+	--color: white;
+}
+
+.toast-danger {
+--background: var(--ion-color-danger);
+--color: white;
+}
+
+.toast-alert {
+--background: var(--ion-color-warning);
+--color: white;
+}
+
+.custom-add-button {
+	--background: var(--ion-color-success); 
+	border-radius: 50%; 
+	width: 50px; 
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+.custom-add-icon {
+font-size: 25px; 
+color: #fff; 
+}
+
+.bg-green{
+	background-color: var(--ion-color-success); 
+	--border-radius: 12px;
+	--box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
+}
+
+.bg-light{
+	background-color: white; 	
+	--border-radius: 12px;
+	--box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
+}
+
+.saldo-negativo {
+	color: red;
+  }
+
+.text-light{
+	color: var(--ion-color-light);
+}
+
+
+
+.text-light-medium{
+	color: var(--ion-color-light);
+	font-weight: 400;
+}
+
+
+ion-label{
+	font-size: 17.5px; 
+	font-weight: 400;
+}
+
+.border-div {    
+    border-bottom: 1px solid #e4e2e2; 
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.label-full-width {
+    display: flex;
+    align-items: center; 
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.nome-instituicao {
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.divisor {
+    margin: 0 8px;
+    color: #ccc;
+}
+
+.text-blue {
+    color: #2D84CB; 
+}
+
+.rounded-image {
+    width: auto;
+    height: 50px;
+    border-radius: 50%; /* Isso cria o efeito arredondado */
+}
+
+.hover-effect-div {
+    transition: background-color 0.3s ease; /* Adiciona uma transição suave para o efeito de hover */
+}
+
+.hover-effect-div:hover {
+    background-color: #e0e0e0; /* Muda a cor de fundo no hover para um cinza mais escuro */
+}
+
+.rounded-card-content {
+    border-radius: 20px; /* Ajuste o valor conforme necessário para obter o efeito desejado */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra para um efeito mais elegante */
+    padding: 16px; /* Adiciona um pouco de padding para espaçamento interno */
+    background-color: #fff; /* Garante que o fundo seja branco */
+}
+
+.ion-padding {
+	padding: 16px;
+  }
+  
+  .rounded-card-content {
+	border-radius: 10px;
+  }
+  
+  .btn {
+	background-color: #3880ff;
+	color: white;
+  }
+  
+  .ion-padding-bottom {
+	padding-bottom: 16px;
+  }
+  
+  .ion-margin {
+	margin: 16px;
+  }
+  
+  .ion-padding-top {
+	padding-top: 16px;
+  }
+
+  /* CategoriaComponent.css */
+
+/* CategoriaComponent.css */
+
+.categoria-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+  
+  .categoria-item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 5px 0;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: rgba(255, 255, 255, 0.1); /* Efeito de transparência */
+	border-bottom: 1px solid #ccc; /* Borda cinza na parte inferior */
+	width: 100%;
+  }
+  
+  .categoria-nome {
+	flex: 1;
+	padding: 10px;
+	border-radius: 5px;
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.5); /* Efeito de transparência */
+  }
+  
+  .categoria-valor {
+	flex: 0;
+	color: #000; /* Cor preta para o valor gasto */
+	text-align: right;
+	padding-left: 10px;
+  }
+
+  .header-card {
+	background-color: var(--ion-color-success); 
+	color: white;
+	text-align: center;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	margin: 0;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+  }
+  
+  .header-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+  }
+  
+  .header-icon {
+	margin: 0 20px;
+	cursor: pointer;
+	color: white;
+  }
+  
+  .header-month {
+	color: white;
+  }
+  
+  .header-balance {
+	color: white;
+	padding: 5px;
+  }
+  
+  .header-subtitle {
+	color: white;
+	padding-bottom: 10px;
+  }

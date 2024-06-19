@@ -1,0 +1,37 @@
+.custom-tab-bar {
+    background: #f8f8f8;
+    border-top: 1px solid #e0e0e0;
+  }
+  
+  .custom-tab-bar .tab-add {
+    background: #ffffff;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .custom-tab-bar .tab-add ion-icon {
+    font-size: 28px;
+    color: #17C64F;
+  }
+  
+  .custom-tab-bar ion-tab-button {
+    border-radius: 10px;
+    margin: 5px;
+  }
+  
+  .custom-tab-bar ion-tab-button ion-icon {
+    font-size: 24px;
+  }
+  
+  .custom-tab-bar ion-tab-button[aria-selected="true"] {
+    background: #e0e0e0;
+  }
+  
+  .custom-popover {
+    --offset-y: 30%; /* Ajuste a posição vertical do popover */
+  }

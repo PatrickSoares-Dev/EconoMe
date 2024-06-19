@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\patri\\Documents\\Codigo\\EconoME_Projeto\\EconoMe_API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{08A53203-9FA6-41BC-97AF-0938B19E5576}|EconoMe_API.csproj|c:\\users\\patri\\documents\\codigo\\econome_projeto\\econome_api\\services\\transacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08A53203-9FA6-41BC-97AF-0938B19E5576}|EconoMe_API.csproj|solutionrelative:services\\transacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08A53203-9FA6-41BC-97AF-0938B19E5576}|EconoMe_API.csproj|c:\\users\\patri\\documents\\codigo\\econome_projeto\\econome_api\\controllers\\transacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08A53203-9FA6-41BC-97AF-0938B19E5576}|EconoMe_API.csproj|solutionrelative:controllers\\transacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08A53203-9FA6-41BC-97AF-0938B19E5576}|EconoMe_API.csproj|c:\\users\\patri\\documents\\codigo\\econome_projeto\\econome_api\\models\\transacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08A53203-9FA6-41BC-97AF-0938B19E5576}|EconoMe_API.csproj|solutionrelative:models\\transacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08A53203-9FA6-41BC-97AF-0938B19E5576}|EconoMe_API.csproj|c:\\users\\patri\\documents\\codigo\\econome_projeto\\econome_api\\models\\conta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08A53203-9FA6-41BC-97AF-0938B19E5576}|EconoMe_API.csproj|solutionrelative:models\\conta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08A53203-9FA6-41BC-97AF-0938B19E5576}|EconoMe_API.csproj|c:\\users\\patri\\documents\\codigo\\econome_projeto\\econome_api\\models\\instituicaobancaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08A53203-9FA6-41BC-97AF-0938B19E5576}|EconoMe_API.csproj|solutionrelative:models\\instituicaobancaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08A53203-9FA6-41BC-97AF-0938B19E5576}|EconoMe_API.csproj|c:\\users\\patri\\documents\\codigo\\econome_projeto\\econome_api\\services\\iservices\\itransacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08A53203-9FA6-41BC-97AF-0938B19E5576}|EconoMe_API.csproj|solutionrelative:services\\iservices\\itransacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08A53203-9FA6-41BC-97AF-0938B19E5576}|EconoMe_API.csproj|c:\\users\\patri\\documents\\codigo\\econome_projeto\\econome_api\\models\\dto\\transacao\\transacaocategoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08A53203-9FA6-41BC-97AF-0938B19E5576}|EconoMe_API.csproj|solutionrelative:models\\dto\\transacao\\transacaocategoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Conta.cs",
+              "DocumentMoniker": "C:\\Users\\patri\\Documents\\Codigo\\EconoME_Projeto\\EconoMe_API\\Models\\Conta.cs",
+              "RelativeDocumentMoniker": "Models\\Conta.cs",
+              "ToolTip": "C:\\Users\\patri\\Documents\\Codigo\\EconoME_Projeto\\EconoMe_API\\Models\\Conta.cs",
+              "RelativeToolTip": "Models\\Conta.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T01:19:54.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InstituicaoBancaria.cs",
+              "DocumentMoniker": "C:\\Users\\patri\\Documents\\Codigo\\EconoME_Projeto\\EconoMe_API\\Models\\InstituicaoBancaria.cs",
+              "RelativeDocumentMoniker": "Models\\InstituicaoBancaria.cs",
+              "ToolTip": "C:\\Users\\patri\\Documents\\Codigo\\EconoME_Projeto\\EconoMe_API\\Models\\InstituicaoBancaria.cs",
+              "RelativeToolTip": "Models\\InstituicaoBancaria.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T01:19:51.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Transacao.cs",
+              "DocumentMoniker": "C:\\Users\\patri\\Documents\\Codigo\\EconoME_Projeto\\EconoMe_API\\Models\\Transacao.cs",
+              "RelativeDocumentMoniker": "Models\\Transacao.cs",
+              "ToolTip": "C:\\Users\\patri\\Documents\\Codigo\\EconoME_Projeto\\EconoMe_API\\Models\\Transacao.cs",
+              "RelativeToolTip": "Models\\Transacao.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T01:16:22.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TransacaoCategoriaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\patri\\Documents\\Codigo\\EconoME_Projeto\\EconoMe_API\\Models\\DTO\\Transacao\\TransacaoCategoriaDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DTO\\Transacao\\TransacaoCategoriaDTO.cs",
+              "ToolTip": "C:\\Users\\patri\\Documents\\Codigo\\EconoME_Projeto\\EconoMe_API\\Models\\DTO\\Transacao\\TransacaoCategoriaDTO.cs",
+              "RelativeToolTip": "Models\\DTO\\Transacao\\TransacaoCategoriaDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T19:08:59.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TransacaoController.cs",
+              "DocumentMoniker": "C:\\Users\\patri\\Documents\\Codigo\\EconoME_Projeto\\EconoMe_API\\Controllers\\TransacaoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TransacaoController.cs",
+              "ToolTip": "C:\\Users\\patri\\Documents\\Codigo\\EconoME_Projeto\\EconoMe_API\\Controllers\\TransacaoController.cs",
+              "RelativeToolTip": "Controllers\\TransacaoController.cs",
+              "ViewState": "AQIAAFwBAAAAAAAAAAAgwGgBAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T18:59:08.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TransacaoService.cs",
+              "DocumentMoniker": "C:\\Users\\patri\\Documents\\Codigo\\EconoME_Projeto\\EconoMe_API\\Services\\TransacaoService.cs",
+              "RelativeDocumentMoniker": "Services\\TransacaoService.cs",
+              "ToolTip": "C:\\Users\\patri\\Documents\\Codigo\\EconoME_Projeto\\EconoMe_API\\Services\\TransacaoService.cs",
+              "RelativeToolTip": "Services\\TransacaoService.cs",
+              "ViewState": "AQIAAMwAAAAAAAAAAAAowNUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T18:59:07.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ITransacaoService.cs",
+              "DocumentMoniker": "C:\\Users\\patri\\Documents\\Codigo\\EconoME_Projeto\\EconoMe_API\\Services\\IServices\\ITransacaoService.cs",
+              "RelativeDocumentMoniker": "Services\\IServices\\ITransacaoService.cs",
+              "ToolTip": "C:\\Users\\patri\\Documents\\Codigo\\EconoME_Projeto\\EconoMe_API\\Services\\IServices\\ITransacaoService.cs",
+              "RelativeToolTip": "Services\\IServices\\ITransacaoService.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAcwBkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T18:59:05.802Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

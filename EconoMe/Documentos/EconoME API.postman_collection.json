@@ -1,0 +1,662 @@
+{
+	"info": {
+		"_postman_id": "6fe855af-17e8-420d-b084-c490a1b57e8d",
+		"name": "EconoME API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27987910"
+	},
+	"item": [
+		{
+			"name": "Usuarios",
+			"item": [
+				{
+					"name": "/Usuarios",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/Usuarios/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"Usuarios",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/Usuarios",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"firebaseUID\": \"UCrWRDRjB4R5VyWJwId6B78bcER2\",\r\n  \"nome\": \"Patrick Soares de Oliveira\",\r\n  \"email\": \"usuario@gmail.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/Usuarios",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"Usuarios"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/Usuarios/{Id}",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"firebaseUID\": \"VxrDwsqoZ0M4rBI4QeebxHhfFdC3\",\r\n  \"nome\": \"Usuario Teste\",\r\n  \"email\": \"usuario@gmail.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/Usuarios/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"Usuarios",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/Usuario/{Id}",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/Usuarios/3",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"Usuarios",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Contas",
+			"item": [
+				{
+					"name": "/Contas",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/Contas",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"Contas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/Contas/{id}",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/Contas/1",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"Contas",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/Contas/Detalhado/{id}",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/Contas/1",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"Contas",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/Contas",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"firebaseuid\": \"\",\r\n  \"nomeConta\": \"Conta Corrente\",\r\n  \"saldo\": 2500.00,\r\n  \"InstituicaoBancariaID\": 1 // ID da instituição bancária selecionada\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/Contas",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"Contas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/Contas",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"contaID\": 6,\r\n  \"nomeConta\": \"Conta Poupança\",\r\n  \"instituicaoBancariaID\": 3,\r\n  \"saldo\": 1500.00\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/Contas/6",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"Contas",
+								"6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/Contas",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/Contas/4",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"Contas",
+								"4"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Categoria",
+			"item": [
+				{
+					"name": "/Categorias",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "Authorization",
+									"value": "Beaer {{token}}",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{baseUrl}}/Categorias",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"Categorias"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/Categorias/{id}",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Beaerer {{token}}"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/Categorias/2",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"Categorias",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/Categorias",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"nomeCategoria\": \"Alimentação\",\r\n  \"tipo\": \"Despesa\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/Categorias",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"Categorias"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/Categorias",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"categoriaID\": 2,\r\n  \"nomeCategoria\": \"Transporte\",\r\n  \"tipo\": \"Despesa\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/Categorias/2",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"Categorias",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/Categorias",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/Categorias/1",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"Categorias",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Transacoes",
+			"item": [
+				{
+					"name": "/Transacoes/Usuario",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearere {{token}}"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/Transacoes/Usuario",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"Transacoes",
+								"Usuario"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/Transacoes/Conta/{Id}",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/Transacoes/Conta/5",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"Transacoes",
+								"Conta",
+								"5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/Transacoes/{Id}",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/Transacoes/1",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"Transacoes",
+								"1"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/Transacoes/Categoria",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/Transacoes/1",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"Transacoes",
+								"1"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/Transacoes/Usuario/gastos-por-categoria",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/Transacoes/Usuario/gastos-por-categoria",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"Transacoes",
+								"Usuario",
+								"gastos-por-categoria"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/Transacoes/Usuario/entradas-saidas",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/Transacoes/Usuario/entradas-saidas",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"Transacoes",
+								"Usuario",
+								"entradas-saidas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/Transacoes",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"ContaID\": 5,\r\n    \"CategoriaID\": 3,\r\n    \"Tipo\": \"Entrada\",\r\n    \"Valor\": 100.00,\r\n    \"Descricao\": \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/Transacoes",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"Transacoes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/Transacoes/{Id}",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Beaerer {{token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"transacaoID\": 1,\r\n  \"contaID\": 5,\r\n  \"categoriaID\": 9,\r\n  \"tipo\": \"Despesa\",\r\n  \"valor\": 60.00,\r\n  \"descricao\": \"Compra de alimentos atualizada\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/Transacoes/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"Transacoes",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/Transacoes/{Id}",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/Transacoes/1",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"Transacoes",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
